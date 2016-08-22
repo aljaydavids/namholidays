@@ -1,0 +1,56 @@
+days:
+  - date: 2016-01-01
+    day: Friday
+    name: New Year’s Day
+
+  - date: 2016-03-21
+    day: Monday
+    name: Independence Day
+
+  - date: 2016-03-25
+    day: Friday
+    name: Good Friday
+
+  - date: 2016-03-27
+    day: Sunday
+    name: Easter Day
+
+  - date: 2016-03-28
+    day: Monday
+    name: Easter Monday
+
+  - date: 2016-04-01
+    day: Sunday
+    name: Workers Day
+
+  - date: 2016-04-02
+    day: Monday
+    name: Public Holiday
+
+  - date: 2016-04-04
+    day: Wednesday
+    name: Cassinga Day
+
+  - date: 2016-04-05
+    day: Thursday
+    name: Ascension Day
+
+  - date: 2016-04-25
+    day: Wednesday
+    name: Africa Day
+
+  - date: 2016-08-26
+    day: Friday
+    name: Heroes Day
+
+  - date: 2016-12-10
+    day: Saturday
+    name: International Human Rights Day
+
+  - date: 2016-12-25
+    day: Sunday
+    name: Christmas Day
+
+  - date: 2016-12-26
+    day: Monday
+    name: Family Day

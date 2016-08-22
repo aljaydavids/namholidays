@@ -1,0 +1,24 @@
+---
+title: Public holidays in Namibia
+---
+<header class="page-header">
+  <h1 class="page-heading">Public holidays in Namibia <small>2016</small></h1>
+</header>
+<section class="Holidays">
+  <% data.holidays.days.each do |holiday| %>
+  <article class="Holiday" itemscope itemtype="http://schema.org/Event">
+    <div class="Holiday__inner">
+      <time class="Holiday__time" itemprop="date" datetime="<%= holiday.date.strftime('%Y-%m-%d') %>"><%= holiday.date.strftime('%a, %e %b') %></time>
+      <h2 class="Holiday__heading" itemprop="name"><%= holiday.name %></h2>
+    </div>
+  </article>
+  <% end %>
+</section><!-- .Holidays -->
+
+<section class="meta">
+  <p>
+    According to the Public Holidays Act, 1990 (Act 26 of 1990) the Monday, following a Sunday which is a public holiday, shall also be a public holiday, unless the Monday is already a public holiday.
+  </p>
+  <h5>Disclaimer</h5>
+  <p>Use the information on this page at own risk, the dates may or may not be correct. Please double check to see if it is a public holiday</p>
+</section>
